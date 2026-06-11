@@ -5,30 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portifólio para curso DSM FATEC - JACAREÍ"
+      content="Portfólio para curso DSM FATEC - JACAREÍ"
     />
-    <title>Portifólio - Ricardo Ladeira</title>
-    <link
+    <title>Portfólio - Ricardo Ladeira</title>
+<!--     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
       integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls"
       crossorigin="anonymous"
-    />
-    <link
+    /> -->
+<!--     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="icon" type="image/png" href="assets/img/favicon_folder.png" />
-    <link
+    /> -->
+    <!--     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    />
+    /> -->
+    <link rel="stylesheet" href="assets/css/pure-min.css" />
+    <link rel="stylesheet" href="assets/css/grids-responsive-min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" type="image/png" href="assets/img/favicon_folder.png" />
+
   </head>
   <body>
     <div id="layout" class="pure-g">
       <!-- sidebar -->
-      <div class="sidebar pure-u-1 pure-u-md-1-4">
+      <div class="sidebar pure-u-1 pure-u-md-1-5">
         <div class="header">
           <img
             class="my-img"
@@ -36,7 +40,7 @@
             src="assets/img/EU.webp"
             alt="Autor do Portifólio"
           />
-          <h1 class="brand-title">Portifólio</h1>
+          <h1 class="brand-title">Portfólio</h1>
           <h3 class="brand-tagline">Ricardo Ladeira</h3>
           <!-- Resumo Profissional -->
           <section class="showCarreira show profile">
@@ -70,10 +74,7 @@
             <div class="profile box">
               <dl>
                 <dt>
-                  <i
-                    class="fa-solid fa-microchip"
-                    style="color: greenyellow"
-                  ></i>
+                  <i class="fa-solid fa-microchip" style="color: greenyellow"></i>
                   Microcontroladores
                 </dt>
                 <dt>
@@ -81,10 +82,7 @@
                   Retrocomputadores
                 </dt>
                 <dt>
-                  <i
-                    class="fa-brands fa-app-store"
-                    style="color: aquamarine"
-                  ></i>
+                  <i class="fa-brands fa-app-store" style="color: aquamarine"></i>
                   Desenvolvimento de Aplicativos
                 </dt>
                 <dt>
@@ -103,61 +101,44 @@
             <ul class="nav-list">
               <li class="nav-item">
                 <a class="pure-button" title="Início" href="#Home"
-                  ><img src="assets/img/house.webp" alt="Início" width="16"
-                /></a>
+                  ><img src="assets/img/house.webp" alt="Início" width="16" /></a>
               </li>
               <li class="nav-item">
                 <a class="pure-button" title="Projetos" href="#Projetos"
-                  ><img
-                    src="assets/img/projeto.webp"
-                    width="16"
-                    height="16"
-                    alt="Projetos"
-                /></a>
+                  ><img src="assets/img/projeto.webp" width="16" height="16" alt="Projetos" /></a>
               </li>
               <li class="nav-item">
-                <a class="pure-button" title="Blog" href="#Blog"
-                  ><img src="assets/img/message.webp" alt="Blog" width="16"
-                /></a>
+                <a class="pure-button" title="Blog" href="blog.html#Blog"
+                  ><img src="assets/img/message.webp" alt="Blog" width="16" /></a>
               </li>
               <li class="nav-item">
                 <a class="pure-button" title="Sobre mim" href="sobre.html#Sobre"
-                  ><img src="assets/img/info.webp" alt="Sobre mim" width="16"
-                /></a>
+                  ><img src="assets/img/info.webp" alt="Sobre mim" width="16" /></a>
               </li>
             </ul>
           </nav>
         </div>
       </div>
 
-      <div class="content pure-u-1 pure-u-md-3-4">
+      <div class="content pure-u-1 pure-u-md-4-5">
         <div>
+
+          <!-- ── BEM-VINDO ── -->
           <div class="posts">
             <h1 id="Home" class="content-subhead">
               <img src="assets/img/house.svg" alt="Início" width="16" />
               Bem-vindo
             </h1>
-
             <section class="post">
               <header class="post-header">
-                <img
-                  width="48"
-                  height="48"
-                  alt="avatar Ricardo Ladeira"
-                  class="post-avatar"
-                  src="assets/img/EU.webp"
-                />
-
+                <img width="48" height="48" alt="avatar Ricardo Ladeira"
+                  class="post-avatar" src="assets/img/EU.webp" />
                 <h2 class="post-title">Bem-vindo ao meu portifólio</h2>
-
                 <p class="post-meta">
                   Por <a href="#" class="post-author">Ricardo Ladeira</a>
-                  <a class="post-category post-category-design" href="#"
-                    >Portifólio</a
-                  >
+                  <a class="post-category post-category-design" href="#">Portifólio</a>
                 </p>
               </header>
-
               <div>
                 <div class="post-description">
                   <p>
@@ -171,119 +152,194 @@
             </section>
           </div>
 
+          <!-- ── PROJETOS ── -->
           <div class="posts">
             <h1 id="Projetos" class="content-subhead">
-              <img
-                src="assets/img/projeto.svg"
-                alt="Figura Projeto"
-                width="16"
-              />Projetos
+              <img src="assets/img/projeto.svg" alt="Figura Projeto" width="16" />Projetos
             </h1>
             <section class="post">
               <header class="post-header">
-                <img
-                  width="48"
-                  height="48"
-                  alt="avatar Ricardo Ladeira"
-                  class="post-avatar"
-                  src="assets/img/EU.webp"
-                />
-
-                <h2 class="post-title">
-                  Projetos desenvolvidos com minha participação
-                </h2>
-
+                <img width="48" height="48" alt="avatar Ricardo Ladeira"
+                  class="post-avatar" src="assets/img/EU.webp" />
+                <h2 class="post-title">Projetos desenvolvidos com minha participação</h2>
                 <p class="post-meta">
                   Por <a class="post-author" href="#">Ricardo Ladeira</a>
-                  <a class="post-category post-category-js" href="#"
-                    >ABP</a
-                  >
+                  <a class="post-category post-category-js" href="#">ABP</a>
                   <a class="post-category post-category-design" href="#">IoT</a>
                   <a class="post-category post-category-pure" href="#">C#</a>
                 </p>
               </header>
-              <div>
-                <div class="post-description">
-                  <p>
-                    Apresento alguns dos meus projetos realizados em grupo e
-                    durante meus estudos. O primeiro projeto, foi feito em 2025 como tema da Aprendizagem Baseada em Projetos (ABP).
-                  </p>
-                  <div class="pure-g">
-                    <div class="pure-u-1 pure-u-md-1-3">
-                      <div class="post-card">
-                        <img
-                          src="assets/img/logo_vest.png"
-                          alt="Vesta"
-                          width="210px"
-                        />
+
+              <div class="post-description">
+                <p>
+                  Apresento aqui os projetos que desenvolvi, organizados por contexto:
+                  acadêmicos (realizados durante os cursos), profissionais e pessoais.
+                  Nos trabalhos em grupo, destaco a minha contribuição individual.
+                </p>
+
+                <!-- === ACADÊMICOS === -->
+                <h3 style="margin-top:1.2em; color: rgb(61,79,93);">
+                  <i class="fa-solid fa-graduation-cap"></i> Acadêmicos
+                </h3>
+                <div class="pure-g cards-row">
+
+                  <!-- VESTA -->
+                  <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <div class="post-card">
+                      <span class="project-section-label">ABP · 2º Semestre · 2025</span>
+                      <img src="assets/img/logo_vest.png" alt="Vesta" style="max-width:210px; margin:0 auto;" />
+                      <div class="card-body">
                         <h2>Vesta</h2>
-                        <h3>
-                          Tecnologias: React Native, CircuitPython, Esp32,
-                          Node.js, MongoDB, Express, Figma.
-                        </h3>
+                        <h3>Tecnologias: React Native, CircuitPython, ESP32, Node.js, MongoDB, Express, Figma.<strong>
+                            1DSM – 2º Sem. 2025 
+                          </strong></h3>
+                        <div class="card-contrib">
+                          <i class="fa-solid fa-user-gear" style="color:rgb(61,146,201)"></i>
+                          <strong>Minha contribuição:</strong> Criação do dispositivo vestível — relógio com ESP32-C3,
+                          acelerômetro (MPU-6050) e sensor de batimentos cardíacos, responsável pela detecção de quedas
+                          e telemetria em tempo real.
+                        </div>
                         <p>
-                          Um sistema inteligente de detecção de quedas para
-                          idosos, desenvolvido com o objetivo de promover
-                          segurança e bem-estar.
+                          Um sistema inteligente de detecção de quedas para idosos, desenvolvido com o objetivo
+                          de promover segurança e bem-estar. Projeto realizado em grupo na disciplina IoT - ABP.
                         </p>
-                        <a href="https://github.com/Steel-Hard/VESTA"
-                          ><i class="fa-brands fa-github"></i>Repositório</a
-                        >
-                        <a
-                          href="https://youtu.be/1EGU-Yw5Vlw?si=0I3iODDCZII9JZ4R"
-                          ><i class="fa-brands fa-youtube"></i>Vídeo</a
-                        >
+                      </div><!-- /card-body -->
+                      <div class="card-links">
+                        <a href="https://github.com/Steel-Hard/VESTA">
+                          <i class="fa-brands fa-github"></i> Repositório</a>
+                        <a href="https://youtu.be/1EGU-Yw5Vlw?si=0I3iODDCZII9JZ4R">
+                          <i class="fa-brands fa-youtube"></i> Vídeo</a>
                       </div>
-                    </div>
-                    <div class="pure-u-1 pure-u-md-1-3">
-                      <div class="post-card">
-                        <img
-                          src="assets/img/freelahub.webp"
-                          alt="FreelaHub"
-                          width="210px"
-                        />
+                    </div><!-- /post-card -->
+                  </div>
+
+                  <!-- FREELAHUB -->
+                  <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <div class="post-card">
+                      <span class="project-section-label">ETEC · 1º Semestre · 2025</span>
+                      <img src="assets/img/freelahub.webp" alt="FreelaHub" style="width: 80%; margin:0 auto;" />
+                      <div class="card-body">
                         <h2>FreelaHub</h2>
                         <h3>Tecnologias: PHP, MySQL, HTML, CSS.</h3>
+                        <div class="card-contrib">
+                          <i class="fa-solid fa-user-gear" style="color:rgb(61,146,201)"></i>
+                          <strong>Minha contribuição:</strong> Desenvolvimento da página de resultados de pesquisa
+                          de vagas — listagem dinâmica, filtros e layout responsivo.
+                        </div>
                         <p>
-                          Projeto de plataforma sem fins lucrativos voltada a
-                          conectar profissionais a empregadores. Realizado como
-                          trabalho de conclusão de curso do Técnico em
-                          Desenvolvimento de Sistemas na ETEC.
+                          Plataforma sem fins lucrativos voltada a conectar profissionais a empregadores.
+                          Trabalho de conclusão de curso do Técnico em Desenvolvimento de Sistemas na ETEC.
                         </p>
-                        <a href="https://ladeira.cc/freelahub"
-                          ><i class="fa-solid fa-link"></i>Sítio Eletrônico</a
-                        >
-                        <a href="https://youtu.be/92BS3dNQ1Yw"
-                          ><i class="fa-brands fa-youtube"></i>Vídeo</a
-                        >
+                      </div><!-- /card-body -->
+                      <div class="card-links">
+                        <a href="https://ladeira.cc/freelahub">
+                          <i class="fa-solid fa-link"></i> Sítio Eletrônico</a>
+                        <a href="https://youtu.be/92BS3dNQ1Yw">
+                          <i class="fa-brands fa-youtube"></i> Vídeo</a>
                       </div>
-                    </div>
-                    <div class="pure-u-1 pure-u-md-1-3">
-                      <div class="post-card">
-                        <img
-                          src="assets/img/meutempo.webp"
-                          alt="App sobre clima"
-                          width="200px"
-                        />
-                        <h2>Meu tempo agora</h2>
-                        <h3>Tecnologias: .Net, C#, NetMaui, API Windy.</h3>
-                        <p>
-                          Uma aplicação Multiplataformas feita em C# usando a
-                          plataform NetMaui da Microsoft. Construído a partir
-                          dos estudos do Curso Técnico de Desenvolvimento de
-                          Sistemas.
-                        </p>
-                        <a
-                          href="https://github.com/Ricardo-Ladeira/MauiAppTempoAgora"
-                          ><i class="fa-brands fa-github"></i>Repositório</a
-                        >
-                      </div>
-                    </div>
+                    </div><!-- /post-card -->
                   </div>
+
+                  <!-- MEU TEMPO AGORA -->
+                  <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <div class="post-card">
+                      <span class="project-section-label">ETEC · 1º Semestre · 2025</span>
+                      <img src="assets/img/meutempo.webp" alt="App sobre clima" style="width:70%; margin: 10px auto;" />
+                      <div class="card-body">
+                        <h2>Meu Tempo Agora</h2>
+                        <h3>Tecnologias: .NET, C#, .NET MAUI, API Windy.</h3>
+                        <div class="card-contrib">
+                          <i class="fa-solid fa-user-check" style="color:rgb(61,146,201)"></i>
+                          <strong>Projeto individual:</strong> Desenvolvido inteiramente por mim.
+                          Inclui acesso ao GPS do dispositivo e integração com a API meteorológica do Windy.com,
+                          demonstrando recursos multiplataforma do .NET MAUI.
+                        </div>
+                        <p>
+                          Aplicação multiplataformas em C# usando o .NET MAUI da Microsoft, construída a partir
+                          dos estudos do Curso Técnico de Desenvolvimento de Sistemas.
+                        </p>
+                      </div><!-- /card-body -->
+                      <div class="card-links">
+                        <a href="https://github.com/Ricardo-Ladeira/MauiAppTempoAgora">
+                          <i class="fa-brands fa-github"></i> Repositório</a>
+                      </div>
+                    </div><!-- /post-card -->
+                  </div>
+
+                </div><!-- /cards-row acadêmicos -->
+
+                <!-- === PROFISSIONAIS === -->
+                <h3 style="margin-top:1.8em; color: rgb(61,79,93);">
+                  <i class="fa-solid fa-briefcase"></i> Profissionais
+                </h3>
+                <div class="pure-g cards-row">
+                  <div class="pure-u-1">
+                    <p style="color:#888; font-style:italic; padding:0.5em 0.5em 1em;">
+                      Em breve serão listados aqui projetos realizados no contexto profissional.
+                    </p>
+                  </div>
+                </div>
+
+                                <!-- === PESSOAIS === -->
+                <h3 style="margin-top:1.5em; color: rgb(61,79,93);">
+                  <i class="fa-solid fa-flask"></i> Pessoais
+                </h3>
+                <div class="pure-g cards-row">
+
+                  <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <div class="post-card">
+                      <span class="project-section-label">Individual · Estudo · 2024</span>
+                      <img src="assets/img/casamento_preview.webp" alt="Página Zuleika & Ubiratam"
+                           style="width:80%; border-radius:4px; margin: 10px auto;" />
+                      <div class="card-body">
+                        <h2>Convite de Casamento</h2>
+                        <h3>Tecnologias: HTML, CSS.</h3>
+                        <div class="card-contrib">
+                          <i class="fa-solid fa-user-check" style="color:rgb(61,146,201)"></i>
+                          <strong>Projeto individual:</strong> Experimento pessoal para estudar
+                          HTML e CSS puros, explorando a técnica de vídeo em tela cheia como
+                          plano de fundo de página.
+                        </div>
+                        <p>
+                          Uma página de convite criada enquanto estudava como incorporar um
+                          vídeo de fundo com CSS puro, sem frameworks ou JavaScript.
+                        </p>
+                      </div><!-- /card-body -->
+                      <div class="card-links">
+                        <a href="https://rladeira-maker.github.io/casamento.github.io/index.html"
+                           target="_blank" rel="noopener">
+                          <i class="fa-solid fa-link"></i> Ver página</a>
+                      </div>
+                    </div><!-- /post-card -->
+                  </div>
+
+                </div><!-- /cards-row pessoais -->
+
+              </div><!-- /post-description -->
+
+            </section>
+          </div><!-- /posts projetos -->
+
+          <!-- ── CONTATOS ── -->
+          <div class="posts contacts-section">
+            <h1 id="Contatos" class="content-subhead">
+              <i class="fa-solid fa-address-card"></i> Contatos
+            </h1>
+            <section class="post">
+              <div class="post-description">
+                <p>Você pode me encontrar nas redes profissionais abaixo:</p>
+                <div class="contact-links">
+                  <a class="contact-link" href="https://br.linkedin.com/in/ricardo-ladeira-41527224" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                  </a>
+                  <a class="contact-link" href="https://github.com/rladeiraFatec" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-github"></i> GitHub
+                  </a>
                 </div>
               </div>
             </section>
           </div>
+
           <div class="footer">
             <div class="pure-menu pure-menu-horizontal">
               <ul>
@@ -291,18 +347,18 @@
                   <a href="index.html" class="pure-menu-link">Início</a>
                 </li>
                 <li class="pure-menu-item">
+                  <a href="blog.html" class="pure-menu-link">Blog</a>
+                </li>
+                <li class="pure-menu-item">
                   <a href="sobre.html" class="pure-menu-link">Sobre</a>
                 </li>
                 <li class="pure-menu-item">
-                  <a
-                    href="http://github.com/rladeiraFatec"
-                    class="pure-menu-link"
-                    >GitHub</a
-                  >
+                  <a href="https://github.com/rladeiraFatec" class="pure-menu-link">GitHub</a>
                 </li>
               </ul>
             </div>
           </div>
+
         </div>
       </div>
     </div>
